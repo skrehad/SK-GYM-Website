@@ -1,0 +1,23 @@
+.cardSection{
+    width: 80vh;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 4px 2px rgb(40, 38, 38);
+
+}
+.cardSection img{
+    width: 400px;
+    height: 300px;
+}
+
+@media screen and (max-width: 820px) {
+    .cardSection{
+        width: 350px;
+        box-shadow: 2px 2px 4px 2px rgb(40, 38, 38);
+    }
+    .cardSection img{
+        width: 350px;
+        height: 250px;
+    }
+    }

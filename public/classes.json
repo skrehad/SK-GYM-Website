@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "classes":"Cycling",
+        "teacherName":"Zinia Zessy",
+        "time":"wed: 9:00 am",
+        "img":"./img/cycling.jpg"
+    },
+    {
+        "id":2,
+        "classes":"Meditation",
+        "teacherName":"Shawn Ray",
+        "time":"Fri: 1:00 pm",
+        "img":"./img/meditation.jpg"
+    },
+    {
+        "id":3,
+        "classes":"Boxing",
+        "teacherName":"Jenifer Alex",
+        "time":"Tue: 4:00 pm",
+        "img":"./img/boxing.jpg"
+    },
+    {
+        "id":4,
+        "classes":"Karate",
+        "teacherName":" David Rich",
+        "time":" Sat: 9:00 am",
+        "img":"./img/karate.jpg"
+    },
+    {
+        "id":5,
+        "classes":"Lifting",
+        "teacherName":"Larry Wheels",
+        "time":"Mon: 8:00 pm",
+        "img":"./img/lifting.jpg"
+    },
+    {
+        "id":6,
+        "classes":"Workout",
+        "teacherName":"Maria Mich",
+        "time":"Sun: 9:00 am",
+        "img":"./img/workout.jpg"
+    },
+    {
+        "id":7,
+        "classes":"Cross fit",
+        "teacherName":"SK Rehad",
+        "time":"Wen: 9:00 pm",
+        "img":"./img/crossing.jpg"
+    },
+    {
+        "id":8,
+        "classes":"Running",
+        "teacherName":"SK Irin",
+        "time":"Fri: 6:00 am",
+        "img":"./img/running.jpg"
+    }
+]

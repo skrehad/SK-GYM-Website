@@ -1,0 +1,23 @@
+.pricingCard{
+    display: grid;
+    margin: 20px 80px;
+    grid-template-columns: repeat(3,1fr);
+}
+.divCard{
+    box-shadow: 0px 0px 3px 4px rgb(40, 38, 38);
+}
+.image{
+    height: 300px;
+    width: 350px;
+}
+.btn:hover{
+background-color: rgb(255 3 54);
+border: none;
+color: black;
+}
+@media screen and (max-width: 820px) {
+    .pricingCard{
+        margin: 0px;
+        grid-template-columns: 1fr;
+    }
+}

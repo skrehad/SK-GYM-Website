@@ -1,0 +1,8 @@
+.nav-menu a:hover{
+    color: rgb(241, 44, 44);
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 33, 33);
+}
+.nav-menu a.active {
+    color: #ff0336;
+  }

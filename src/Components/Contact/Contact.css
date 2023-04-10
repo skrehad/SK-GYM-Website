@@ -1,0 +1,37 @@
+.contact{
+    background-image: url(./img.jpg);
+}
+.contactSection{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.icon1{
+ display: flex;
+ /* width:100px ; */
+}
+.icon1 p{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon1 p:hover{
+  color: rgb(231, 18, 61);
+}
+
+@media screen and (max-width: 820px) {
+    .contactInfo{
+      grid-template-columns: 1fr;
+    }
+    .contactSection{
+      grid-template-columns: 1fr;
+    }
+    .text1{
+      color: black;
+    }
+    .icon1{
+      margin-left: 45px;
+    }
+  
+}

@@ -1,0 +1,10 @@
+.homeBlogCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+@media screen and (max-width: 820px) {
+    .homeBlogCard{
+        grid-template-columns: 1fr;
+    }
+}

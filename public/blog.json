@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "writer":"SK Rehad",
+        "blogTitle":"Daily Cup of Yoga",
+        "blogDescription":"A comfortable place to fill up on all things yoga. The cup of yoga appears to be not quite daily anymore, but there’s more than enough to keep my interest, and a large archive. The guest bloggers are good. There seems to be nothing but guest bloggers lately, however, which is possibly a sign that this popular blog is winding down.",
+        "time":"March 11, 2023",
+        "img":"./blog-img/1.jpg"
+    },
+    {
+        "id":2,
+        "writer":"Sk Kharawbi",
+        "blogTitle":"CrossFit Plus",
+        "blogDescription":"CrossFit Plus’ blog is what every health and fitness blog should be: Comprehensive and useful. Not only does it discuss specific workouts and competitions, but it also covers important health topics like sleep, hydration and and vitamin intake. This Australia-based site is one for the bookmark bar.",
+        "time":"March 14, 2023",
+        "img":"./blog-img/2.jpg"
+    },
+    {
+        "id":3,
+        "writer":"Hasan",
+        "blogTitle":" The Materials Direct ",
+        "blogDescription":"Attitude is everything when it comes to making change, therefore Materials Direct has defined its approach to manufacturing and sets out to make the industry more sustainable. This article outlines the Materials Direct Green Initiative and the approach they take to minimise their carbon footprint.",
+        "time":"March 18, 2023",
+        "img":"./blog-img/3.jpg"
+    },
+    {
+        "id":4,
+        "writer":"Saiful",
+        "blogTitle":"About Fitness",
+        "blogDescription":"Fitness News is your go-to source for the latest developments in the world of health and wellness. Whether you're an athlete, fitness enthusiast, we've got you covered. With breaking news, in-depth analysis, and expert opinions from the most trusted sources in the industry, you'll have everything you need to stay informed and motivated. So why wait? Explore our fitness news section today.",
+        "time":"March 23, 2023",
+        "img":"./blog-img/4.jpg"
+    },
+    {
+        "id":5,
+        "writer":"Rehad Irin",
+        "blogTitle":"Boost Fitness Levels",
+        "blogDescription":"A few minutes of stretching early morning improves posture, increases blood circulation, and keeps you active and throughout the day. Taking your dog for a walk gives you more than eight hours of exercise a week, according to a study Giving up processed foods, vegetables, eggs, lean meat, whole grains in your diet cuts down the risk of chronic diseases like diabetes, blood pressure and cancer.",
+        "time":"March 29, 2023",
+        "img":"./blog-img/5.jpg"
+    }
+]

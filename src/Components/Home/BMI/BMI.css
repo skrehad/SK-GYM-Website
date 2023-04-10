@@ -1,0 +1,24 @@
+.bmiDiv{
+background-image: url('../img/background.1fed62fab703bff0845d.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.bmiSection{
+    width:650px ;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 820px) {
+    .bmiSection{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bmiDiv{
+        background-image: url('../img/background.1fed62fab703bff0845d.jpg');
+        background-size: auto 100%;
+        }
+}

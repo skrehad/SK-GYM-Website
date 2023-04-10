@@ -1,0 +1,40 @@
+.homeSection{
+    background-image: url('./img/photo-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.homeSectionDiv{
+    height: 500px;
+    margin-left: 150px;
+    padding-top: 150px;
+}
+.homeSectionDiv h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.homeSectionDiv p{
+    font-size: 40px;
+    color: #FF0336;
+    font-weight: 600;
+}
+
+
+
+.homeFooter{
+    background-image:url('./img/background.f24e8c4144bb6907ac96.jpg');
+}
+.footerDiv{
+    padding: 50px 0px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 820px) {
+    .footerDiv{
+        text-align: center;
+        padding: 30px 10px;
+        margin: 0px;
+    }
+    .homeSectionDiv{
+        margin-left: 50px;
+    }
+}
