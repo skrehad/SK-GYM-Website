@@ -1,0 +1,19 @@
+.cardBody1{
+    position: absolute;
+}
+
+.cardClasses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media screen and (max-width: 820px){
+    .cardClasses{
+        grid-template-columns:1fr;
+    }
+    .cardClasses div{
+        margin: 20px;
+    }
+    .cardBody1 h2{
+        margin-top: 270px;
+    }
+}

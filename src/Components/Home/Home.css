@@ -1,7 +1,8 @@
 .homeSection{
-    background-image: url('./img/photo-bg.jpg');
+    background-image: url('./img/photo1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 600px;
 }
 .homeSectionDiv{
     height: 500px;
@@ -17,9 +18,6 @@
     color: #FF0336;
     font-weight: 600;
 }
-
-
-
 .homeFooter{
     background-image:url('./img/background.f24e8c4144bb6907ac96.jpg');
 }

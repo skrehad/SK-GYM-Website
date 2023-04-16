@@ -1,0 +1,36 @@
+.imgSlider{
+    height: 600px;
+    margin: 40px 150px;
+    background-image: url('./image/1.jpg');
+    background-size: 100% 100%;
+    animation-name: changeImage;
+    animation-duration: 15s;    
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px 5px #2b2626;
+    border-radius: 12px;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url('./image/1.jpg');
+    }
+    25%{
+        background-image: url('./image/2.jpg');
+    }
+    50%{
+        background-image: url('./image/3.jpg');
+    }
+    75%{
+        background-image: url('./image/4.jpg');
+    }
+    100%{
+        background-image: url('./image/5.jpg');
+    }  
+}
+
+@media screen and (max-width: 820px) {
+    .imgSlider{
+        border-radius: 15px;
+        margin: 20px;
+        height: 400px;
+    }
+}

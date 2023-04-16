@@ -1,6 +1,5 @@
 .pricingCard{
     display: grid;
-    margin: 20px 80px;
     grid-template-columns: repeat(3,1fr);
 }
 .divCard{
@@ -19,5 +18,8 @@ color: black;
     .pricingCard{
         margin: 0px;
         grid-template-columns: 1fr;
+    }
+    .cardDiv{
+        margin: 20px;
     }
 }

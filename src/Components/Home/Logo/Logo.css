@@ -1,0 +1,19 @@
+.logo{
+    display: flex;
+    justify-content:center;
+    margin: 70px 0px ;
+}
+.logo img{
+    margin-left: 40px;
+  cursor: pointer;
+}
+@media screen and (max-width: 820px){
+    .logo{
+        display: block;
+    }
+    .logo img{
+        margin: auto;
+        margin-bottom: 10px;
+        
+    }
+}

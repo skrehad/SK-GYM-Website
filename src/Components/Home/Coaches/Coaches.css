@@ -1,0 +1,39 @@
+.icons{
+    justify-content: center;
+}
+.icons svg{
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.icons svg:hover{
+    color: #FF0336;
+}
+.coachesCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+@media screen and (max-width: 820px){
+.coachesCard{
+    grid-template-columns:1fr;
+}
+.coachesCard div{
+    margin: 20px;
+}
+.icons svg{
+    margin:0px 10px;
+}
+.icons{
+    margin-top: 0px !important;
+}
+
+
+
+
+}

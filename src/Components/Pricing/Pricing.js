@@ -8,20 +8,20 @@ import image3 from "./img/3.jpg";
 
 const Pricing = () => {
   return (
-    <div className="p-16">
+    <div className="mb-12 mt-4">
       <h1 className="text-3xl mb-8 text-center text-white">Pricing</h1>
       <div className="text-center text-white">
-        <h2 className="text-2xl my-4">Exclusive Pricing Plan</h2>
+        <h2 className="text-2xl mb-12">Exclusive Pricing Plan</h2>
       </div>
-      <div className="pricingCard">
-        <div className="divCard shadow-2xl m-auto my-8 max-w-sm rounded overflow-hidden ">
-          <img className="image" src={image1} alt="Sunset in the mountains" />
+      <div className="pricingCard ">
+        <div class="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
+          <img class="w-full image" src={image1} alt="" />
           <div className="px-6 py-2">
             <div className="font-bold text-white text-center text-3xl mb-2">
               Beginners
             </div>
 
-            <div className="text-center my-2 text-white text-3xl">$99</div>
+            <div className="text-center my-2 text-white text-3xl">$39</div>
 
             <div className=" text-white">
               <div className="flex text-center">
@@ -54,14 +54,14 @@ const Pricing = () => {
             </Link>
           </div>
         </div>
-        <div className="divCard shadow-2xl m-auto my-8 max-w-sm rounded overflow-hidden ">
-          <img className="image" src={image2} alt="Sunset in the mountains" />
+        <div class="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
+          <img class="w-full image" src={image2} alt="" />
           <div className="px-6 py-2">
             <div className="font-bold text-white text-center text-3xl mb-2">
               Medium
             </div>
 
-            <div className="text-center my-2 text-white text-3xl">$99</div>
+            <div className="text-center my-2 text-white text-3xl">$69</div>
 
             <div className=" text-white">
               <div className="flex text-center">
@@ -94,8 +94,8 @@ const Pricing = () => {
             </Link>
           </div>
         </div>
-        <div className="divCard shadow-2xl m-auto my-8 max-w-sm rounded overflow-hidden ">
-          <img className="image" src={image3} alt="Sunset in the mountains" />
+        <div class="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
+          <img class="w-full image" src={image3} alt="" />
           <div className="px-6 py-2">
             <div className="font-bold text-white text-center text-3xl mb-2">
               Advance

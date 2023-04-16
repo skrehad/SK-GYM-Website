@@ -1,0 +1,25 @@
+.image1{
+    border-radius: 15px 0px 0px 15px;
+}
+
+@media screen and (max-width: 820px){
+    .testimonialCard{
+        margin: 20px;
+        height: auto;
+    }
+    .image1{
+        width: 100%;
+        height: 300px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .cardBody{
+        text-align: center;
+    }
+    .cardBody h2{
+        margin: 0px;
+    }
+    .cardBody p{
+        margin-top: 20px;
+    }
+    
+}

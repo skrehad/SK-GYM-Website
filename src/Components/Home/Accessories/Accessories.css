@@ -1,0 +1,21 @@
+.accessories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.accessoriesItems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width: 820px){
+    .accessories{
+        grid-template-columns:1fr;
+    }
+    .accessoriesItems{
+        grid-template-columns:1fr;
+        margin-top: 20px;
+    }
+    .accessoriesItems div{
+        margin-bottom: 20px;
+    }
+}
