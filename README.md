@@ -1,4 +1,7 @@
 **About the project** <br />
+
+This gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.
+
 👉 Live Demo: https://gym-website-4d719.web.app/
 
 **Build with:** <br />
