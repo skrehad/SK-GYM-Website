@@ -1,2 +1,2 @@
-sk
-![vvvv](./img/logo1.png)
+About the project
+![](./img/logo1.png)
