@@ -1,3 +1,3 @@
 **About the project**
 
-![](./img/logo1.png)
+**_Screenshots of the Project 📸_**
