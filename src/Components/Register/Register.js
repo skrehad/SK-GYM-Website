@@ -60,6 +60,7 @@ const Register = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
+        navigate(from, { replace: true });
         toast.success("Success Register");
         console.log(user);
       })

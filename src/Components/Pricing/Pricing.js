@@ -14,8 +14,8 @@ const Pricing = () => {
         <h2 className="text-2xl mb-12">Exclusive Pricing Plan</h2>
       </div>
       <div className="pricingCard ">
-        <div class="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
-          <img class="w-full image" src={image1} alt="" />
+        <div className="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
+          <img className="w-full image" src={image1} alt="" />
           <div className="px-6 py-2">
             <div className="font-bold text-white text-center text-3xl mb-2">
               Beginners
@@ -54,8 +54,8 @@ const Pricing = () => {
             </Link>
           </div>
         </div>
-        <div class="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
-          <img class="w-full image" src={image2} alt="" />
+        <div className="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
+          <img className="w-full image" src={image2} alt="" />
           <div className="px-6 py-2">
             <div className="font-bold text-white text-center text-3xl mb-2">
               Medium
@@ -94,8 +94,8 @@ const Pricing = () => {
             </Link>
           </div>
         </div>
-        <div class="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
-          <img class="w-full image" src={image3} alt="" />
+        <div className="cardDiv max-w-sm bg-[#181818] m-auto rounded overflow-hidden shadow-lg">
+          <img className="w-full image" src={image3} alt="" />
           <div className="px-6 py-2">
             <div className="font-bold text-white text-center text-3xl mb-2">
               Advance
