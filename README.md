@@ -5,8 +5,11 @@
 Build with:
 
 » CSs
+
 » Daisy UI
+
 » Tailwind CSS
+
 » React JS
 
 **_Screenshots of the Project 📸_**
