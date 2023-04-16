@@ -1,15 +1,10 @@
-#About the project
+**About the project** <br />
+👉 Live Demo: https://gym-website-4d719.web.app/
 
-👉 Live Demo:https://gym-website-4d719.web.app/
-
-Build with:
-
-» CSs
-
-» Daisy UI
-
-» Tailwind CSS
-
-» React JS
+**Build with:** <br />
+» CSS <br />
+» Daisy UI <br />
+» Tailwind CSS <br />
+» React JS <br />
 
 **_Screenshots of the Project 📸_**
