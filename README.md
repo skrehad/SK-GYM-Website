@@ -8,3 +8,6 @@
 » React JS <br />
 
 **_Screenshots of the Project 📸_**
+
+**Home Page 🏡**
+![](./full%20page%20ss/Sk-GYM-Website.png)
