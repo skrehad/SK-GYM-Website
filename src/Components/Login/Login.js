@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import "./Login.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-hot-toast";
 
 const Login = () => {
   const { signInEmail, googleSingIn, githubSingIn } = useContext(AuthContext);
@@ -19,6 +18,7 @@ const Login = () => {
     signInEmail(email, password)
       .then((result) => {
         const user = result.user;
+        toast.success("Success Login");
         event.target.reset();
         navigate(from, { replace: true });
         console.log(user);
@@ -33,6 +33,7 @@ const Login = () => {
     googleSingIn()
       .then((result) => {
         const user = result.user;
+        toast.success("Success Login");
         navigate(from, { replace: true });
         console.log(user);
       })
@@ -46,6 +47,8 @@ const Login = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
+        toast.success("Success Login");
+        navigate(from, { replace: true });
         console.log(user);
       })
       .catch((error) => {
@@ -62,7 +65,6 @@ const Login = () => {
             Please Login now!
           </h1>
         </div>
-        <ToastContainer />
         <div className="">
           <form
             onSubmit={signIn}

@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import "./Register.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer, toast } from "react-toastify";
+import toast from "react-hot-toast";
 
 const Register = () => {
   const { createUser, updateName, googleSingIn, githubSingIn } =
@@ -23,6 +23,7 @@ const Register = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        toast.success("Success Register");
         event.target.reset();
         navigate(from, { replace: true });
         displayName(name);
@@ -45,9 +46,10 @@ const Register = () => {
   const signInWithGoogle = () => {
     googleSingIn()
       .then((result) => {
+        toast.success("Success Register");
         const user = result.user;
         navigate(from, { replace: true });
-        toast.success("Success Register");
+
         console.log(user);
       })
       .catch((error) => {
@@ -60,8 +62,9 @@ const Register = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
-        navigate(from, { replace: true });
         toast.success("Success Register");
+        navigate(from, { replace: true });
+
         console.log(user);
       })
       .catch((error) => {
@@ -77,7 +80,7 @@ const Register = () => {
             Please Register First
           </h1>
         </div>
-        <ToastContainer />
+        {/* <ToastContainer /> */}
         <div className="">
           <form
             onSubmit={register}

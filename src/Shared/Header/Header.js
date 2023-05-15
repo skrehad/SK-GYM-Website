@@ -123,7 +123,7 @@ const Header = () => {
       </div>
       <div className="nav-menu navbar-end">
         {user && user.uid ? (
-          <button onClick={logout} className="mr-4">
+          <button onClick={logout} className="mr-4 text-white">
             LogOut
           </button>
         ) : (
