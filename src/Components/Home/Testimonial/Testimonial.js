@@ -9,7 +9,7 @@ const Testimonial = () => {
       <div className="bg-[#181818] testimonialCard card lg:card-side h-[500px] mx-[150px]  shadow-xl">
         <img className="image1 w-[600px] h-[500px] " src={image} alt="" />
         <div className="card-body cardBody">
-          <h2 className="card-title text-xl mx-4 mt-[70px]">
+          <h2 className="card-title text-xl mx-4 mt-[20px]">
             “I've been a member of SK GYM for the past 6 months and it has been
             an amazing experience. The trainers are knowledgeable and supportive
             the equipment is top-notch, and the community of members supportive
