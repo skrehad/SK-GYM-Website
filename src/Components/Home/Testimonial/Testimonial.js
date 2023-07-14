@@ -15,7 +15,7 @@ const Testimonial = () => {
             supportive, the equipment is top-notch, and the community of members
             is friendly and encouraging.”
           </h2>
-          <p className="mt-[100px] text-2xl mx-4 text-white">Rehad hasan</p>
+          <p className="mt-[20px] text-2xl mx-4 text-white">Rehad hasan</p>
         </div>
       </div>
     </div>
