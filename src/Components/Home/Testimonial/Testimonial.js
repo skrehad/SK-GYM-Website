@@ -11,9 +11,10 @@ const Testimonial = () => {
         <div className="card-body cardBody">
           <h2 className="card-title text-xl mx-4 mt-[70px]">
             “I've been a member of SK GYM for the past 6 months and it has been
-            an amazing experience. The trainers are knowledgeable and
-            supportive, the equipment is top-notch, and the community of members
-            is friendly and encouraging.”
+            an amazing experience. The trainers are knowledgeable and supportive
+            the equipment is top-notch, and the community of members supportive
+            the equipment is top-notch, and the community of members is friendly
+            and encouraging.”
           </h2>
           <p className="mt-[20px] text-2xl mx-4 text-white">Rehad hasan</p>
         </div>
