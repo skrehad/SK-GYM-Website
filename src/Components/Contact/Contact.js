@@ -86,7 +86,7 @@ const Contact = () => {
           {/* second col ---*/}
           <form
             onSubmit={informationSubmit}
-            className="flex flex-col bg-gray-800 p-8 rounded"
+            className="flex flex-col bg-gray-800 p-16 rounded"
           >
             <h3 className="text-[28px] font-bold mb-14 text-white">
               Leave Us Your Info

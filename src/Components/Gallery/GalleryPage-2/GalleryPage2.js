@@ -13,7 +13,7 @@ const GalleryPage2 = () => {
       <h1 className="text-white text-3xl text-center my-16 font-bold">
         Gallery
       </h1>
-      <div className="imageSection">
+      <div className="imageSection grid gap-5">
         <img src={image7} alt="" />
         <img src={image8} alt="" />
         <img src={image9} alt="" />

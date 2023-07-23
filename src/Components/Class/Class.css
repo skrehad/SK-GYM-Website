@@ -1,5 +1,4 @@
 .cardSection{
-    width: 80vh;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -9,6 +8,9 @@
 .cardSection img{
     width: 400px;
     height: 300px;
+}
+.card{
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 820px) {

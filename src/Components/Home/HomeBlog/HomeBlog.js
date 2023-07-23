@@ -57,7 +57,7 @@ const HomeBlog = () => {
             </Link>
           </div>
         </div>
-        <div class="bg-gray-700 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+        <div class="bg-gray-700 mb-4 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="my-4">
               <span className="border rounded-lg p-2">29.03.2023</span>

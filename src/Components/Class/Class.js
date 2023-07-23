@@ -8,9 +8,10 @@ const Class = (props) => {
   const { classes, teacherName, time, img } = props.singleClass;
   return (
     <div className="card cardSection lg:card-side  shadow-2xl">
-      <figure>
+      <div>
         <img src={img} alt="Album" />
-      </figure>
+      </div>
+
       <div className="card-body">
         <h2 className="card-title font-bold text-white text-2xl">{classes}</h2>
         <div className="flex font-bold mt-4">
