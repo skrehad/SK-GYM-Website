@@ -1,51 +1,18 @@
-**About the project** <br />
-
-This gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.
+**Website Name: GYM Website** <br />
 
 👉 Live Demo: https://gym-website-4d719.web.app/
+
+**About the project** <br />
+
+» This is a gym's website as a comprehensive and user-friendly resource for individuals seeking fitness information and services.
+» The website provides a diverse array of features, encompassing information about skilled trainers, class timetables, educational blogs, clear pricing information, and a glimpse into the fitness community.
+» These elements collectively create a well-rounded platform catering to users' fitness needs and fostering a sense of belonging within the fitness community.
+» The website's design is aimed at supporting users in their pursuit of fitness goals and a healthier lifestyle.
+» The user-friendly interface streamlines the process of booking and managing class attendance, contributing to an enhanced overall user experience.
+» This feature simplifies engagement, ensuring that individuals can effortlessly secure their spot in classes and efficiently organize their fitness routines.
 
 **Build with:** <br />
 » CSS <br />
 » Daisy UI <br />
 » Tailwind CSS <br />
 » React JS <br />
-
-**_Screenshots of the Project 📸_**
-
-**Home Page 🏡** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website.png)
-
-**About Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website1.png)
-
-**Gallery Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website2.png)
-
-**Schedule Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website4.png)
-
-**Blog Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website5.png)
-
-**Pricing Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website6.png)
-
-**Classes Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website7.png)
-
-**Contact Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website8.png)
-
-**Register && Login Page 👇** <br />
-
-![](./full%20page%20ss/Sk-GYM-Website10.png)
-
-![](./full%20page%20ss/Sk-GYM-Website11.png)
